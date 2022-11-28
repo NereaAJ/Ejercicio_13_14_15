@@ -9,7 +9,7 @@ const Taskform = ({add, length}) => {
     const emailRef = useRef('');
 
     function addTask(e){
-        e.preventDefault();
+        e.preventDefault(); //Cargas inecesarias 
         const newTask = new Task(
             nameRef.current.value,
             lastnameRef.current.value,
