@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Task } from '../../model/task.class';
-import Taskform from '../pure/form/taskForm';
+//import Taskform from '../pure/form/taskFormik';
+import Taskformik from '../pure/form/taskFormik';
 import TaskComponent from '../pure/task';
 
 const TaskListComponents = () => {
@@ -112,7 +113,8 @@ const TaskListComponents = () => {
                     </div>
                 </div>
                 <div className='card' style={{marginTop:'15px', padding:'15px'}}>
-                    <Taskform add={addTask} length={tasks.length}></Taskform>
+                    {/* <Taskform add={addTask} length={tasks.length}></Taskform> */}
+                    <Taskformik add={addTask} length={tasks.length}></Taskformik>
                 </div>
             </div>
         </div>

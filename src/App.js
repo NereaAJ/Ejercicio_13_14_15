@@ -8,10 +8,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/* Componente de listado de Estado de Contacto */}
-       {/* {<TaskListComponents></TaskListComponents>} */}
+       {<TaskListComponents></TaskListComponents>}
 
        {/* <Loginformik></Loginformik> */}
-       <Registerformik></Registerformik>
+       {/* <Registerformik></Registerformik> */}
       </header>
     </div>
   );
